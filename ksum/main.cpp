@@ -69,7 +69,6 @@ static void sum(std::ofstream& stream,
 				const std::vector<int>& numbers,
 				const std::vector<int>& partial = std::vector<int>()) {
 
-	// Potentially skip iteration over winningTuples
 	if (partial.size() == (uint32_t) targetAmount)
 	{
 		// Compute the sum for this current group
@@ -194,7 +193,6 @@ static bool parseInput(const std::string& inputPath, const std::string& outputPa
 		winningTuples.clear();
 
 	} else {
-		std::cout << "Failure" << std::endl;
 		return false;
 	}
 
@@ -203,7 +201,7 @@ static bool parseInput(const std::string& inputPath, const std::string& outputPa
 
 int main()
 {
-	// Must <= the amount of test files generated via input_gen.py
+	// Must be <= the amount of test files generated via input_gen.py
 	int numTests = 3;
 
 	for (int i = 0; i < numTests; ++i) {
