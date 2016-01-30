@@ -188,8 +188,6 @@ static bool parseInput(const std::string& inputPath, const std::string& outputPa
 
 		output.close();
 
-		winningTuples.clear();
-
 	} else {
 		return false;
 	}

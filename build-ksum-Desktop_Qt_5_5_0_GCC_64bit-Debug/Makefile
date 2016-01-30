@@ -52,6 +52,7 @@ SOURCES       = ../ksum/main.cpp
 OBJECTS       = main.o
 DIST          = ../ksum/input.txt \
 		../ksum/input_gen.py \
+		../ksum/README.md \
 		../../../../env/qt/5.5/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../../env/qt/5.5/gcc_64/mkspecs/common/unix.conf \
 		../../../../env/qt/5.5/gcc_64/mkspecs/common/linux.conf \
