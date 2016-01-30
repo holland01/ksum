@@ -1,0 +1,7 @@
+BEGIN input.txt
+
+target amount: 3
+target sum: 51
+6 + 43 + 2 = 51
+END input
+

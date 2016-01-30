@@ -1,0 +1,14 @@
+BEGIN input1.txt
+
+number count: 32
+target amount: 3
+target sum: 80
+71 + 3 + 6 = 80
+10 + 68 + 2 = 80
+10 + 15 + 55 = 80
+11 + 63 + 6 = 80
+28 + 49 + 3 = 80
+15 + 63 + 2 = 80
+43 + 31 + 6 = 80
+END input
+

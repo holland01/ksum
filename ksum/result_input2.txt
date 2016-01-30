@@ -1,0 +1,8 @@
+BEGIN input2.txt
+
+number count: 21
+target amount: 2
+target sum: 138
+70 + 68 = 138
+END input
+
