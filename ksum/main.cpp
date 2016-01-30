@@ -91,8 +91,6 @@ static void sum(std::ofstream& stream,
 			}
 			ss << " = " << targetSum << "\n";
 			stream << ss.str();
-
-			winningTuples.push_back(partial);
 		}
 
 		// There is no point in continuing if either of these are true,
